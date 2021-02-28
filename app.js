@@ -1,6 +1,6 @@
 //Form
-var button= document.querySelector(''); 
-var input= document.querySelector(''); 
+var button= document.querySelector('.icon'); 
+var input= document.querySelector('#city-input'); 
 //City & weather
 var city= document.querySelector(''); 
 var weather= document.querySelector('');
