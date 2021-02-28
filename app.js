@@ -24,5 +24,20 @@ button.addEventListener('click', function(){
     .then(function(response){ return response.json()})
     .then(function(data){
     console.log(data)
+    //Variables
+    const city = data.name; 
+    const weather= data.weather[0].description;
+    const temp= Math.floor(data.main.temp);
+    const minTemp= Math.floor(data.main.temp_min);
+    const maxTemp= Math.floor(data.main.temp_max);
+    // const wind= ; 
+    // const pressure= ; 
+    // const humidity= ; 
+    const icon= data.weather[0].icon;
+
+
+    //place the value
+    window.city.innerHTML= data.name; 
+
 })
 })
