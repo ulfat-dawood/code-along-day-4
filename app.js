@@ -34,11 +34,20 @@ button.addEventListener('click', function(){
     // const pressure= ; 
     // const humidity= ; 
     const icon= data.weather[0].icon;
-    // const iconSrc= ;
+    // const iconSrc= URL for the icon;
 
 
     //place the value
-    window.city.innerHTML= data.name; 
+    window.city.innerHTML= city;
+    window.weather.innerHTML= weather; 
+    window.currentTemp.innerHTML= `${temp}<sup>°</sup>`; 
+    window.minTemp.innerHTML= `${minTemp}<sup>°</sup>`
+    window.maxTemp.innerHTML= `${maxTemp}<sup>°</sup>`
+
+    // window.wind.innerHTML= ;
+    // window.humidity.innerHTML= ;
+    // window.pressure.innerHTML= ;
+    // window.icon.src= iconSrc;  
 
 })
 })
