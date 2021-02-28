@@ -34,6 +34,7 @@ button.addEventListener('click', function(){
     // const pressure= ; 
     // const humidity= ; 
     const icon= data.weather[0].icon;
+    // const iconSrc= ;
 
 
     //place the value
